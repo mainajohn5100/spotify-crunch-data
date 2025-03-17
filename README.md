@@ -25,10 +25,11 @@ This Python script generates a Spotify Wrapped-like summary of your listening da
 4.  **Configure the Script:**
     * Create a `.env` file in the root folder of the project.
     * Add these envirnment variables to the `.env` file:
+      ```bash
           SPOTIFY_CLIENT_ID=CLIENT_ID
           SPOTIFY_CLIENT_SECRET=CLIENT_SECRET
           SPOTIFY_REDIRECT_URI=REDIRECT_URI
-
+      ```
     * Replace the placeholder values for `CLIENT_ID`, `CLIENT_SECRET`, and `REDIRECT_URI` with your actual credentials.
 
 ## Usage
