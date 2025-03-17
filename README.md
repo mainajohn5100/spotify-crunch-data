@@ -9,18 +9,26 @@ This Python script generates a Spotify Wrapped-like summary of your listening da
 * Spotify Developer account and application credentials (Client ID, Client Secret, Redirect URI)
 
 ## Setup
+1.  **Clone the project**
+    * Click this [link](https://github.com/mainajohn5100/spotify-crunch-data.git) to clone the project.
 
-1.  **Install spotipy:**
+2.  **Activate the environment and Install spotipy:**
     ```bash
+    source venv/bin/acivate
     pip install spotipy
     ```
-2.  **Obtain Spotify API Credentials:**
+3.  **Obtain Spotify API Credentials:**
     * Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/).
     * Create a new application.
     * Copy your Client ID and Client Secret.
     * Add a Redirect URI (e.g., `http://localhost:8080`) to your application's settings.
-3.  **Configure the Script:**
-    * Open the `spotify_wrapped.py` file.
+4.  **Configure the Script:**
+    * Create a `.env` file in the root folder of the project.
+    * Add these envirnment variables to the `.env` file:
+          SPOTIFY_CLIENT_ID=CLIENT_ID
+          SPOTIFY_CLIENT_SECRET=CLIENT_SECRET
+          SPOTIFY_REDIRECT_URI=REDIRECT_URI
+
     * Replace the placeholder values for `CLIENT_ID`, `CLIENT_SECRET`, and `REDIRECT_URI` with your actual credentials.
 
 ## Usage
