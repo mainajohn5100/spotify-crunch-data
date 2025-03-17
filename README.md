@@ -36,25 +36,23 @@ This Python script generates a Spotify Wrapped-like summary of your listening da
 
 1.  **Run the script:**
     ```bash
-    python spotify_wrapped.py
+    python spotify_data_v2.py
     ```
 2.  **Authorize the application:**
     * A browser window will open, prompting you to authorize the application to access your Spotify data.
     * Grant the necessary permissions.
 3.  **View the results:**
-    * The script will print the Spotify data summary to the console in JSON format.
-    * A file named `spotify_wrapped.json` will be created in the same directory, containing the data.
+    * The script will print the Spotify data summary to the console.
 
 ## Output
 
 The script generates the following data:
 
-* **Top 10 Artists:** A list of your top 10 most played artists.
+* **Top 5 Artists:** A list of your top 10 most played artists.
 * **Top 20 Tracks:** A list of your top 20 most played tracks.
-* **Top 10 Albums:** A list of your top 10 most played albums.
+* **Top 20 Albums:** A list of your top 10 most played albums.
 * **Total Minutes Listened (Recent):** An approximate total of minutes listened based on recent history.
 * **Estimated Yearly Minutes Listened:** A very rough estimation of total minutes listened over a year, based on the recent data.
-* The data is outputted in json format, both to the console, and to `spotify_wrapped.json`.
 
 ## Important Notes
 
